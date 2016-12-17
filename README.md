@@ -16,6 +16,16 @@ Downloading firmware
 * The phone will reboot when finished.
 * Follow the android installation instructions
 
+Set developer mode
+------------------
+* Go to Settings -> About device -> Software Info
+* Tap multiple times on **Build Number**
+
+Allow unknown sources
+---------------------
+* Go to Settings -> Lock screen and security
+* Select **Unknown sources**
+
 Flashing TWRP
 -------------
 * Start your phone in download mode
@@ -23,12 +33,13 @@ Flashing TWRP
 * Click the **AP** button and select the file TWRP_3.0.2-0_SM-J320F.tar.tar
 * Click **Start**
 
-Flashing SuperSU
--------------
-* Start your phone in download mode
-* Start **Odin**
-* Click the **AP** button and select the file UPDATE-SuperSU-v2.76-20160630161323.zip
-* Click **Start**
+Installing SuperSU from TWRP
+----------------------------
+* Transfer the file UPDATE-SuperSU-v2.76-20160630161323.zip to internal storage on the phone
+* Start the phone in recovery mode
+*
+* In TWRP select **Install** and choose the transferred file
+
 
 
 
