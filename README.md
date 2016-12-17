@@ -12,6 +12,12 @@ Downloading firmware
 * Connect your phone. The log should display something like "Added!!". Then click the **Start** button.
 * The phone will reboot when finished.
 
+Flashing TWRP
+-------------
+* Start **Odin**
+* Click the **AP** button and select the file TWRP_3.0.2-0_SM-J320F.tar.tar
+* Click **Start**
+
 Starting up the phone
 ---------------------
 * Go through the installation process.
