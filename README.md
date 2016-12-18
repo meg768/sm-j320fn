@@ -5,11 +5,12 @@ Rooting Samsung SM-J320FN
 Needed software (PC)
 --------------------
 * Download **Samsung Odin** from http://odindownload.com. I have had no success with the OSX version of this software.
+* Using version 3.12
 * Download a Samsung USB Driver for PC.
 
 Downloading firmware
 --------------------
-* Get U.K. version of the firmware from http://www.sammobile.com/firmwares/download/87976/J320FNXXU0APH1_J320FNBTU0APH1_BTU
+* Download J320FNXXU0APH1_J320FNNEE0APH1_J320FNXXU0APH1_HOME.tar.md5
 * Start **Odin** and click the **AP** button. Select the downloaded firmware (.md5) file.
 * Power off your phone and restart in download mode.
 * Connect your phone. The log should display something like "Added!!". Then click the **Start** button.
@@ -18,11 +19,12 @@ Downloading firmware
 
 Set developer mode
 ------------------
+* Start your phone.
 * Go to Settings -> About device -> Software Info
 * Tap multiple times on **Build Number**
-
-Allow unknown sources
----------------------
+* Go to Settings -> Developer options
+* Select **OEM unlock**
+* Select **USB debugging**
 * Go to Settings -> Lock screen and security
 * Select **Unknown sources**
 
@@ -49,10 +51,12 @@ Links
 * Chainfire https://autoroot.chainfire.eu
 * SamMobile firmware http://www.sammobile.com/firmwares/
 * xda-developers http://forum.xda-developers.com
+* https://xxdaroot.blogspot.se
+	* Some xposed files corrupt when downloading. Keep trying.
 
 
 Log
 -----
-* Installed UK version of firmware
-* Prompted for software update - selected YES
-* Flashed TWRP
+* J320FNXXU0APH1_J320FNNEE0APH1_J320FNXXU0APH1_HOME.tar.md5
+*
+*
