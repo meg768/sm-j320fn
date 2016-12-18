@@ -5,7 +5,7 @@ Rooting Samsung SM-J320FN
 Needed software (PC)
 --------------------
 * Download **Samsung Odin** from http://odindownload.com. I have had no success with the OSX version of this software.
-* Using version 3.12
+* Using version 3.12.3
 * Download a Samsung USB Driver for PC.
 
 Downloading firmware
@@ -37,11 +37,18 @@ Flashing TWRP
 
 Installing SuperSU from TWRP
 ----------------------------
-* Transfer the file UPDATE-SuperSU-v2.76-20160630161323.zip to internal storage on the phone
+* Transfer the file UPDATE-SuperSU-v2.78-XXXXXXX.zip to internal storage on the phone
 * Start the phone in recovery mode
-*
 * In TWRP select **Install** and choose the transferred file
 
+Installing Xposed
+-----------------
+* Transfer the file xposed-v87.0-sdk22-arm-custom-build-by-wanam-XXXX.zip to internal storage on the phone
+* Transfer the file XposedInstaller_3.XXX.apk to internal storage on the phone
+* Start the phone in recovery mode
+* In TWRP select **Install** and choose the transferred file
+* After reboot open app **My Files**
+* Find and install the XposedInstaller
 
 
 
@@ -51,12 +58,5 @@ Links
 * Chainfire https://autoroot.chainfire.eu
 * SamMobile firmware http://www.sammobile.com/firmwares/
 * xda-developers http://forum.xda-developers.com
-* https://xxdaroot.blogspot.se
-	* Some xposed files corrupt when downloading. Keep trying.
-
-
-Log
------
-* J320FNXXU0APH1_J320FNNEE0APH1_J320FNXXU0APH1_HOME.tar.md5
-*
-*
+* https://xxdaroot.blogspot.se. Some xposed files corrupt when downloading. Keep trying.
+* http://forum.xda-developers.com/xposed/unofficial-xposed-samsung-lollipop-t3180960
